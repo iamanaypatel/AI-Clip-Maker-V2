@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Video Viewfinder Frame (Rounded rectangle outline) -->
+    <path
+        android:pathData="M37,29 L71,29 A8,8 0 0 1 79,37 L79,71 A8,8 0 0 1 71,79 L37,79 A8,8 0 0 1 29,71 L29,37 A8,8 0 0 1 37,29 Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.88"
+        android:fillColor="#00000000" />
+
+    <!-- Film / Viewfinder Corner Accents -->
+    <path
+        android:pathData="M34,29 L38,29 M70,29 L74,29 M34,79 L38,79 M70,79 L74,79"
+        android:strokeWidth="4"
+        android:strokeColor="#E65100" />
+
+    <!-- Central Play Button Triangle with Burnt Orange to Gold Gradient -->
+    <path android:pathData="M48,43 L65,54 L48,65 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="43"
+                android:endX="65"
+                android:endY="65"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFB300" />
+                <item android:offset="1.0" android:color="#E65100" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top-Right AI Sparkle Star (4-point curved star) -->
+    <!-- Center at (75, 33) -->
+    <path android:pathData="M75,26 C75,30 78,33 82,33 C78,33 75,36 75,40 C75,36 72,33 68,33 C72,33 75,30 75,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="68"
+                android:startY="26"
+                android:endX="82"
+                android:endY="40"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF9C4" />
+                <item android:offset="0.5" android:color="#FFD54F" />
+                <item android:offset="1.0" android:color="#FF8F00" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bottom-Left Secondary AI Sparkle Star -->
+    <!-- Center at (33, 75) -->
+    <path android:pathData="M33,70 C33,73 35,75 38,75 C35,75 33,77 33,80 C33,77 31,75 28,75 C31,75 33,73 33,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="70"
+                android:endX="38"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFE082" />
+                <item android:offset="1.0" android:color="#E65100" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
